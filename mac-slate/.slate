@@ -15,6 +15,8 @@ bind -:shift,alt,cmd resize -25% 0
 bind =:shift,ctrl,alt,cmd resize 0 +50%
 bind -:shift,ctrl,alt,cmd resize 0 -25%
 
+bind ]:backslash,shift,cmd push top bar-resize:screenSizeY
+
 bind left:backslash,shift,cmd push left bar-resize:screenSizeX/2
 bind right:backslash,shift,cmd push right bar-resize:screenSizeX/2
 bind up:backslash,shift,cmd push up bar-resize:screenSizeY/2
@@ -39,3 +41,5 @@ bind y:backslash,shift,cmd corner top-left resize:screenSizeX/2;screenSizeY/3
 bind u:backslash,shift,cmd corner top-right resize:screenSizeX/2;screenSizeY/3
 bind h:backslash,shift,cmd corner bottom-left resize:screenSizeX/2;screenSizeY/3*2
 bind j:backslash,shift,cmd corner bottom-right resize:screenSizeX/2;screenSizeY/3*2
+
+# Fast switch to apps
