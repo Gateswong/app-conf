@@ -12,5 +12,11 @@
 	</array>
 	<key>WorkingDirectory</key>
 	<string>/opt/aria2c-downloads</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>StandardOutPath</key>
+	<string>/var/log/aria2c-rpc-service.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/aria2c-rpc-service-error.log</string>
 </dict>
 </plist>
