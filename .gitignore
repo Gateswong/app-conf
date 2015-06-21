@@ -1,2 +1,5 @@
+!README.md
+
 Rime-IME/*
 !Rime-IME/*.custom.yaml
+!Rime-IME/README.md
