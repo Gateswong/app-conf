@@ -16,11 +16,16 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'Valloric/ListToggle'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator'
 "Plugin 'Shougo/neocomplete.vim' 
+
+" :: Coding :: Visualization
+Plugin 'altercation/vim-colors-solarized'
 
 " :: Coding :: Language :: Python
 Plugin 'klen/python-mode' 
 Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'tell-k/vim-autopep8'
 
 " :: Utils :: Git
 Plugin 'tpope/vim-git'
@@ -29,7 +34,6 @@ Plugin 'tpope/vim-fugitive'
 " :: Appearance
 Plugin 'bling/vim-bufferline'
 Plugin 'bling/vim-airline'
-
 
 
 call vundle#end()
@@ -50,7 +54,8 @@ set softtabstop=4
 set tabstop=4
 
 " font settings
-color torte
+" color torte
+set background=dark
 
 " fix for vim-airline
 set laststatus=2
@@ -79,4 +84,14 @@ let g:airline_section_c = airline#section#create(['filetype'])
 let g:airline_section_x = airline#section#create(['%P'])
 let g:airline_section_y = airline#section#create(['%B'])
 let g:ariline_section_z = airline#section#create_right(['%l', '%c'])
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" plugin :: vim-colors-solarized
+" let g:solarized_termcolors=256
+if has("gui_running")
+    colorscheme desert256
+else
+    colorscheme desert256
+endif
 
