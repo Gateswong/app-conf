@@ -8,6 +8,7 @@ version: "0.1"
 sort: origin
 ...
 
+# ik：颜文字前缀
 ╮(╯_╰)╭	iktanshou	5
 ╮(￣▽￣)╭	iktanshou	5
 m(_ _)m	ikditou	5
@@ -29,8 +30,25 @@ m(_ _)m	ikditou	5
 ╧═╧╰（`□′╰）	ikxianzhuo	5
 _(:з」∠)_	ikwuyuebing	5
 ～(￣▽￣～)(～￣▽￣)～	ikkaixin	5
+
+# is：符号前缀
 ☐	isbox	5
-☑	ischecked	5
-☒	ischecked2	5
+☑	isbox	5
+☒	isbox	5
+
 ✓	ischeck	5
 ⨯	iscross	5
+✗ iscross 5
+
+⚐ isflag 5
+⚑ isflag 5
+
+☀ issun 5
+☁ iscloud 5
+☂ isumbrella 5
+☃ issnowman 5
+
+☞ ishand 5
+★ isstar 5
+☆ isstar 5
+
